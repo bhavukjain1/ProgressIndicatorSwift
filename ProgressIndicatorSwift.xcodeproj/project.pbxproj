@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B9618F1EDEBCCC0061244C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9618E1EDEBCCC0061244C /* AppDelegate.swift */; };
+		B9B961911EDEBCCC0061244C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B961901EDEBCCC0061244C /* ViewController.swift */; };
+		B9B961941EDEBCCC0061244C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B961921EDEBCCC0061244C /* Main.storyboard */; };
+		B9B961971EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9B961951EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodeld */; };
+		B9B961991EDEBCCC0061244C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B961981EDEBCCC0061244C /* Assets.xcassets */; };
+		B9B9619C1EDEBCCC0061244C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B9619A1EDEBCCC0061244C /* LaunchScreen.storyboard */; };
+		B9B961A71EDEBCCC0061244C /* ProgressIndicatorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B961A61EDEBCCC0061244C /* ProgressIndicatorSwiftTests.swift */; };
+		B9B961B21EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B961B11EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.swift */; };
+		B9B961C01EDEBCF10061244C /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B961BF1EDEBCF10061244C /* ProgressIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B961A31EDEBCCC0061244C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B961831EDEBCCC0061244C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B9618A1EDEBCCC0061244C;
+			remoteInfo = ProgressIndicatorSwift;
+		};
+		B9B961AE1EDEBCCC0061244C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B961831EDEBCCC0061244C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B9618A1EDEBCCC0061244C;
+			remoteInfo = ProgressIndicatorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9B9618B1EDEBCCC0061244C /* ProgressIndicatorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressIndicatorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B9618E1EDEBCCC0061244C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9B961901EDEBCCC0061244C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9B961931EDEBCCC0061244C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9B961961EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgressIndicatorSwift.xcdatamodel; sourceTree = "<group>"; };
+		B9B961981EDEBCCC0061244C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9B9619B1EDEBCCC0061244C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9B9619D1EDEBCCC0061244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B961A21EDEBCCC0061244C /* ProgressIndicatorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressIndicatorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B961A61EDEBCCC0061244C /* ProgressIndicatorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorSwiftTests.swift; sourceTree = "<group>"; };
+		B9B961A81EDEBCCC0061244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B961AD1EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressIndicatorSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B961B11EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorSwiftUITests.swift; sourceTree = "<group>"; };
+		B9B961B31EDEBCCC0061244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B961BF1EDEBCF10061244C /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B961881EDEBCCC0061244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B9619F1EDEBCCC0061244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B961AA1EDEBCCC0061244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B961821EDEBCCC0061244C = {
+			isa = PBXGroup;
+			children = (
+				B9B9618D1EDEBCCC0061244C /* ProgressIndicatorSwift */,
+				B9B961A51EDEBCCC0061244C /* ProgressIndicatorSwiftTests */,
+				B9B961B01EDEBCCC0061244C /* ProgressIndicatorSwiftUITests */,
+				B9B9618C1EDEBCCC0061244C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B9618C1EDEBCCC0061244C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9618B1EDEBCCC0061244C /* ProgressIndicatorSwift.app */,
+				B9B961A21EDEBCCC0061244C /* ProgressIndicatorSwiftTests.xctest */,
+				B9B961AD1EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B9618D1EDEBCCC0061244C /* ProgressIndicatorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B9B961BF1EDEBCF10061244C /* ProgressIndicator.swift */,
+				B9B9618E1EDEBCCC0061244C /* AppDelegate.swift */,
+				B9B961901EDEBCCC0061244C /* ViewController.swift */,
+				B9B961921EDEBCCC0061244C /* Main.storyboard */,
+				B9B961981EDEBCCC0061244C /* Assets.xcassets */,
+				B9B9619A1EDEBCCC0061244C /* LaunchScreen.storyboard */,
+				B9B9619D1EDEBCCC0061244C /* Info.plist */,
+				B9B961951EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodeld */,
+			);
+			path = ProgressIndicatorSwift;
+			sourceTree = "<group>";
+		};
+		B9B961A51EDEBCCC0061244C /* ProgressIndicatorSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B961A61EDEBCCC0061244C /* ProgressIndicatorSwiftTests.swift */,
+				B9B961A81EDEBCCC0061244C /* Info.plist */,
+			);
+			path = ProgressIndicatorSwiftTests;
+			sourceTree = "<group>";
+		};
+		B9B961B01EDEBCCC0061244C /* ProgressIndicatorSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B961B11EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.swift */,
+				B9B961B31EDEBCCC0061244C /* Info.plist */,
+			);
+			path = ProgressIndicatorSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B9618A1EDEBCCC0061244C /* ProgressIndicatorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B961B61EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwift" */;
+			buildPhases = (
+				B9B961871EDEBCCC0061244C /* Sources */,
+				B9B961881EDEBCCC0061244C /* Frameworks */,
+				B9B961891EDEBCCC0061244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressIndicatorSwift;
+			productName = ProgressIndicatorSwift;
+			productReference = B9B9618B1EDEBCCC0061244C /* ProgressIndicatorSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B961A11EDEBCCC0061244C /* ProgressIndicatorSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B961B91EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwiftTests" */;
+			buildPhases = (
+				B9B9619E1EDEBCCC0061244C /* Sources */,
+				B9B9619F1EDEBCCC0061244C /* Frameworks */,
+				B9B961A01EDEBCCC0061244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B961A41EDEBCCC0061244C /* PBXTargetDependency */,
+			);
+			name = ProgressIndicatorSwiftTests;
+			productName = ProgressIndicatorSwiftTests;
+			productReference = B9B961A21EDEBCCC0061244C /* ProgressIndicatorSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9B961AC1EDEBCCC0061244C /* ProgressIndicatorSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B961BC1EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwiftUITests" */;
+			buildPhases = (
+				B9B961A91EDEBCCC0061244C /* Sources */,
+				B9B961AA1EDEBCCC0061244C /* Frameworks */,
+				B9B961AB1EDEBCCC0061244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B961AF1EDEBCCC0061244C /* PBXTargetDependency */,
+			);
+			name = ProgressIndicatorSwiftUITests;
+			productName = ProgressIndicatorSwiftUITests;
+			productReference = B9B961AD1EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B961831EDEBCCC0061244C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bhavuk Jain";
+				TargetAttributes = {
+					B9B9618A1EDEBCCC0061244C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76B74UFG23;
+						ProvisioningStyle = Automatic;
+					};
+					B9B961A11EDEBCCC0061244C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76B74UFG23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9B9618A1EDEBCCC0061244C;
+					};
+					B9B961AC1EDEBCCC0061244C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76B74UFG23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9B9618A1EDEBCCC0061244C;
+					};
+				};
+			};
+			buildConfigurationList = B9B961861EDEBCCC0061244C /* Build configuration list for PBXProject "ProgressIndicatorSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B961821EDEBCCC0061244C;
+			productRefGroup = B9B9618C1EDEBCCC0061244C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B9618A1EDEBCCC0061244C /* ProgressIndicatorSwift */,
+				B9B961A11EDEBCCC0061244C /* ProgressIndicatorSwiftTests */,
+				B9B961AC1EDEBCCC0061244C /* ProgressIndicatorSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B961891EDEBCCC0061244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9619C1EDEBCCC0061244C /* LaunchScreen.storyboard in Resources */,
+				B9B961991EDEBCCC0061244C /* Assets.xcassets in Resources */,
+				B9B961941EDEBCCC0061244C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B961A01EDEBCCC0061244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B961AB1EDEBCCC0061244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B961871EDEBCCC0061244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B961C01EDEBCF10061244C /* ProgressIndicator.swift in Sources */,
+				B9B961971EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodeld in Sources */,
+				B9B961911EDEBCCC0061244C /* ViewController.swift in Sources */,
+				B9B9618F1EDEBCCC0061244C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B9619E1EDEBCCC0061244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B961A71EDEBCCC0061244C /* ProgressIndicatorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B961A91EDEBCCC0061244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B961B21EDEBCCC0061244C /* ProgressIndicatorSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B961A41EDEBCCC0061244C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B9618A1EDEBCCC0061244C /* ProgressIndicatorSwift */;
+			targetProxy = B9B961A31EDEBCCC0061244C /* PBXContainerItemProxy */;
+		};
+		B9B961AF1EDEBCCC0061244C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B9618A1EDEBCCC0061244C /* ProgressIndicatorSwift */;
+			targetProxy = B9B961AE1EDEBCCC0061244C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9B961921EDEBCCC0061244C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B961931EDEBCCC0061244C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9B9619A1EDEBCCC0061244C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B9619B1EDEBCCC0061244C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B961B41EDEBCCC0061244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9B961B51EDEBCCC0061244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B961B71EDEBCCC0061244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9B961B81EDEBCCC0061244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9B961BA1EDEBCCC0061244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressIndicatorSwift.app/ProgressIndicatorSwift";
+			};
+			name = Debug;
+		};
+		B9B961BB1EDEBCCC0061244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressIndicatorSwift.app/ProgressIndicatorSwift";
+			};
+			name = Release;
+		};
+		B9B961BD1EDEBCCC0061244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProgressIndicatorSwift;
+			};
+			name = Debug;
+		};
+		B9B961BE1EDEBCCC0061244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 76B74UFG23;
+				INFOPLIST_FILE = ProgressIndicatorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingertouchgamer.ProgressIndicatorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProgressIndicatorSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B961861EDEBCCC0061244C /* Build configuration list for PBXProject "ProgressIndicatorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B961B41EDEBCCC0061244C /* Debug */,
+				B9B961B51EDEBCCC0061244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B961B61EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B961B71EDEBCCC0061244C /* Debug */,
+				B9B961B81EDEBCCC0061244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9B961B91EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B961BA1EDEBCCC0061244C /* Debug */,
+				B9B961BB1EDEBCCC0061244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9B961BC1EDEBCCC0061244C /* Build configuration list for PBXNativeTarget "ProgressIndicatorSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B961BD1EDEBCCC0061244C /* Debug */,
+				B9B961BE1EDEBCCC0061244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9B961951EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9B961961EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodel */,
+			);
+			currentVersion = B9B961961EDEBCCC0061244C /* ProgressIndicatorSwift.xcdatamodel */;
+			path = ProgressIndicatorSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9B961831EDEBCCC0061244C /* Project object */;
+}
